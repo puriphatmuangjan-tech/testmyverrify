@@ -1,0 +1,20 @@
+{
+  "name": "slip-ocr",
+  "version": "1.0.0",
+  "description": "Slip OCR server (Tesseract) for fb-comment-bot",
+  "main": "slip-ocr-server.js",
+  "private": true,
+  "scripts": {
+    "start": "node slip-ocr-server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "jpeg-js": "^0.4.4",
+    "jsqr": "^1.4.0",
+    "pngjs": "^7.0.0",
+    "tesseract.js": "^7.0.0"
+  }
+}
